@@ -124,18 +124,15 @@ header {
 }
 
 .logo {
-   background: url("assets\css\thumbnail_with_lobster.jpg");
-   background-position: center;
+   background: url("thumbnail_with_lobster.jpg");
+    
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 360px;
-   
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    overflow: hidden;
-   background-color: #f0f0f0;
-}
+    background-size: contain;
+    background-color: black;
+    min-height: 360px;
+
+    }
 
 
 .name {
