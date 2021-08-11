@@ -71,7 +71,7 @@ body {
 
 .fillHeight{
     position:relative;
-    height:100%;
+    min-height:576px;
 }
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
