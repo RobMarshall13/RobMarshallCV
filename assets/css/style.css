@@ -69,9 +69,14 @@ body {
     color: #555555;
 }
 
+.my-container{
+    overflow:hidden;
+}
+
 .fillHeight{
     position:relative;
-    min-height:576px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
